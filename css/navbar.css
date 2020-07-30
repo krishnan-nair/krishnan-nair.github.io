@@ -1,0 +1,10 @@
+.bg-dark {
+  background-color: #343a4071;;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+  zoom: .8;
+}
+
+#left{
+  margin-left: 12%;
+}

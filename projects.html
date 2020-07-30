@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishnan Nair's E-Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+ 
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/script.js"></script>
+
+</head>
+<body>
+    <div class="block">
+        <h1 class="head"><span>K</span>RISHNAN <span>N</span>AIR</h1>
+        <h3 class="head">E-PORTFOLIO</h3>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div id="left">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link " href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="contactMe.html">Contact Me</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="bg">
+        <div class="content">
+            <h3>
+                <b>Projects</b>      
+            </h3>
+            <p>Here's a list of my research and class projects. To learn more information or take a 
+                closer look, check out the supplemental infomation section of each project!</p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="main-timeline2">
+                            <div class="timeline">
+                                <span class="icon fa fa-globe"></span>
+                                <a href="#exampleModalCenter" class="timeline-content" data-toggle="modal" data-target="#exampleModalCenter">
+                                    <h6 class="proj-name">Student Interview Database</h6>
+                                    <p class="description">
+                                        <span><b><i>Summer 2020</i></b></span><br>
+                                        An interactive web app that allows students to post and search through interview questions from top companies!
+                                    </p>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="exampleModalLongTitle">Student Interview Database Web App</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                                    <div class="carousel-inner">
+                                                      <div class="carousel-item active">
+                                                        <img class="d-block w-100" src="images/webapp/home.JPG" alt="First slide">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5>Home Page</h5>
+                                                            <!-- <p>Page where the user can log in or sign-up for an account</p> -->
+                                                        </div>
+                                                      </div>
+                                                      <div class="carousel-item">
+                                                        <img class="d-block w-100" src="images/webapp/account.JPG" alt="Second slide">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5>Account Information Page</h5>
+                                                            <!-- <p>Page where the user can access their account information and see what questions they've posted</p> -->
+                                                        </div>
+                                                      </div>
+                                                      <div class="carousel-item">
+                                                        <img class="d-block w-100" src="images/webapp/post.JPG" alt="Third slide">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5>Post Questions Page</h5>
+                                                            <!-- <p>Page where the user can post their questions. </p> -->
+                                                        </div>
+                                                      </div>
+                                                      <div class="carousel-item">
+                                                        <img class="d-block w-100" src="images/webapp/questions.JPG" alt="Fourth slide">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5>View Questions Page</h5>
+                                                            <!-- <p>Page where the user can view questions and filter based on keyword or company</p> -->
+                                                        </div>
+                                                      </div>
+                                                      <div class="carousel-item">
+                                                        <img class="d-block w-100" src="images/webapp/database.JPG" alt="Fifth slide">
+                                                        <div class="carousel-caption d-none d-md-block">
+                                                            <h5>Firebase Database of Posted Questions</h5>
+                                                            <!-- <p>Reflects how the data was stored to the firebase as the user posted a question</p> -->
+                                                        </div>
+                                                      </div>
+                                                    </div>
+                                                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                      <span class="sr-only">Previous</span>
+                                                    </a>
+                                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                      <span class="sr-only">Next</span>
+                                                    </a>
+                                                </div>
+                                                  
+                                                <p>This web app was a part of a final capstone project for a software engineering class taken in the summer of 2020. This project tested my web-development skills in HTML/CSS/Javascript/Bootstrap, as well as my database management skills.
+                                                    The biggest challenge of this project was to manage how user data was stored in Firebase so that it could be easily extracted using Javascript. Key features of this site include authenticated content, where the user must be authenticated
+                                                    in order to post or view any questions. The code for this project is available on my <a href="https://github.com/krishnan-nair" target="_blank">GitHub account</a>. 
+                                                </p>
+                                                <h5 class="sup">Supplemental Information:</h5>
+                                                <div class="buttons">
+                                                    <p>User Guide:   
+                                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                            <button type="button" class="btn btn-primary" id="ug">
+                                                                <span class="preview" id="ug">Preview</span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-primary">
+                                                                <a class="download" href="downloads/User Guide for Student Interview Database.pdf" download>Download</a>
+                                                            </button>
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-rocket"></span>
+                                <a href="#jd-modal" class="timeline-content" data-toggle="modal" data-target="#jd-modal">
+                                    <h6 class="proj-name">Adaptive Paintbrush</h6>
+                                    <p class="description">
+                                        <span><b><i>Spring 2020</i></b></span><br>
+                                        An interactive web app that allows students to post and search through interview questions from top companies!
+                                    </p>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="jd-modal" tabindex="-1" role="dialog" aria-labelledby="jd-modal" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="jd-modal-title">Adaptive Paintbrush for Junior Design</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img id="jDesign" src="images/juniord.png" >
+                                                <p>The work seen above is from my junior design project, where I, alongside a team of 
+                                                    two other students, was tasked with creating an adaptive paintbrush device 
+                                                    to be used by artists with cerebral palsy. Given the pandemic of COVID-19, 
+                                                    we were unable to physically develop a project, yet we were still tasked 
+                                                    with creating a virtual prototype as well as a 70 page design report that
+                                                    highlighted all of the technical details of the design and the impacts it 
+                                                    would have in terms of social, environmental, and ethical context. With this 
+                                                    project, I was assigned team lead and was responsible for guiding my teammates 
+                                                    with meeting necessary deadlines and assuring all project requirements were 
+                                                    met. Meetings were conducted via Zoom and I held the responsibility in guiding 
+                                                    the focus of each meeting towards a particular task related to the project. 
+                                                    I learned many valuable skills in project management using Gantt charts, as well as 
+                                                    technical writing skills, Arduino coding, and developing models in Solidworks. 
+                                                </p>
+
+                                                <h5 class="sup">Supplemental Information:</h5>
+                                                <div class="buttons">
+                                                    <p>Design Manifesto Report:
+                                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                            <button type="button" class="btn btn-primary" id="design">
+                                                                <span class="preview" id="design">Preview</span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-primary">
+                                                                <a class="download" href="downloads/Team 15 Final Report.pdf" download>Download</a>
+                                                            </button>
+                                                        </div>
+                                                    </p>
+                                                    <p>Narrated Final Pitch Presentation: <br>
+                                                        <button class="btn btn-primary">
+                                                            <a class="download" href="downloads/Team 15 Final Pitch.pptx" download>Download</a>
+                                                        </button>
+                                                    </p>
+                                                </div>    
+                                            </div>
+                                
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-briefcase"></span>
+                                <a href="#nm-modal" class="timeline-content" data-toggle="modal" data-target="#nm-modal">
+                                    <h6 class="proj-name">Neuronal Model of the Brain</h6>
+                                    <p class="description">
+                                        <span><b><i>Winter 2020</i></b></span><br>
+                                        An interactive web app that allows students to post and search through interview questions from top companies!
+                                    </p>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="nm-modal" tabindex="-1" role="dialog" aria-labelledby="nm-modal" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="jd-modal-title">Neuronal Model of the Brain</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img id="neuron" src="images/neuron.png">
+                                                <p>
+                                                    This project involved modeling the neuronal activity of two neurons when 
+                                                    introduced to stochastic noise. The figure to the left shows a model 
+                                                    of two neurons that are not synapsed and the figure to the right 
+                                                    shows a model of the same two neurons but with a synapse. Both models introduce an aspect of
+                                                    stochastic noise with a random distribution pattern. This 
+                                                    model reflects that when two neurons synapse with one another, their action 
+                                                    potentials spike closer together in time. Yet, the introduction of noise creates 
+                                                    delays within action potential spikes, as seen by the randomized time span between 
+                                                    spikes. This noise can be commonly found in neuronal diseases such as Parkinson’s 
+                                                    and Alzheimers. The model was generated using differential equations in the Brian 
+                                                    2.0 package of Python, and coded in the Jupyter IDE.
+                                                </p>
+                                            </div>
+                                
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-mobile"></span>
+                                <a href="#hiv-modal" class="timeline-content" data-toggle="modal" data-target="#hiv-modal">
+                                    <h6 class="proj-name">HIV Drug Thearpy Model</h6>
+                                    <p class="description">
+                                        <span><b><i>Fall 2019</i></b></span><br>
+                                        An interactive web app that allows students to post and search through interview questions from top companies!
+                                    </p>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="hiv-modal" tabindex="-1" role="dialog" aria-labelledby="hiv-modal" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="modal-title">HIV Drug Therapy Model</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img id="hivproj" src="images/hivproj.png">
+                                                <p>This project attempted to model the combination HIV drug therapy known as HAART therapy. 
+                                                It was my final project for my biomedical modeling and simulation class, where we expanded on
+                                                skill using MATLAB and Simulink. The data was collected from the IrsiCaixa HIV research 
+                                                foundation in Barcelona, Spain. Each patient’s healthy T-Cell and viral cell concentration 
+                                                were monitored over the course of two years with one year on-therapy, and one year off-therapy. 
+                                                This model consisted of a variety of different parameters that went into three differential 
+                                                equations, and the parameter that controlled the change in concentration was the mass 
+                                                action infection rate. Other parameters included regeneration rate and death rate. The 
+                                                results of this project demonstrate that when a patient is diagnosed with HIV, no 
+                                                therapy can completely eradicate the disease, and the ultimate outcome is treatment 
+                                                for the rest of the patient’s life. This project was coded in MATLAB.</p> 
+                                                <h5 class="sup">Supplemental Information:</h5>
+                                                <div class="buttons">
+                                                    <p>HIV Model Report:   
+                                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                            <button type="button" class="btn btn-primary" id="hiv">
+                                                                <span class="preview" id="hiv">Preview</span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-primary">
+                                                                <a class="download" href="downloads/HIV Model Report.pdf" download>Download</a>
+                                                            </button>
+                                                        </div>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                
+                                            
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="timeline">
+                                <span class="icon fa fa-globe"></span>
+                                <a href="#te-modal" class="timeline-content" data-toggle="modal" data-target="#te-modal">
+                                    <h6 class="proj-name">Twenty Eight Card Game</h6>
+                                    <p class="description">
+                                        <span><b><i>Summer 2019</i></b></span><br>
+                                        An interactive web app that allows students to post and search through interview questions from top companies!
+                                    </p>
+                                    <!-- Modal -->
+                                    <div class="modal fade" id="te-modal" tabindex="-1" role="dialog" aria-labelledby="te-modal" aria-hidden="true">
+                                        <div class="modal-dialog modal-dialog-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="te-modal-title">Twenty-Eight UI Card Game</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <img id="cardGame" src="images/memoryDiagram.png">
+                                                <p>This user interface card game invovled developing a game in Java and having it run on the command window.
+                                                    This project expanded on my object oriented programming skills inspired a career involving programming.
+                                                    Above is the mid-state memory diagram of the game, containing all of the game’s classes and methods. 
+                                                    This project tested my knowledge of object oriented programming and also tested my creativity on how 
+                                                    to develop a simple, yet fun game. 
+                                                </p>
+                                                
+                                                <h5 class="sup">Supplemental Information:</h5>
+                                                <div class="buttons">
+                                                    <p>Memory Diagram:   
+                                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                            <button type="button" class="btn btn-primary" id="mem">
+                                                                <span class="preview" id="mem">Preview</span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-primary">
+                                                                <a class="download" href="downloads/Memory Diagram.pdf" download>Download</a>
+                                                            </button>
+                                                        </div>
+                                                    </p>
+                                                    <p>UML Diagram:   
+                                                        <div class="btn-group" role="group" aria-label="Basic example">
+                                                            <button type="button" class="btn btn-primary" id="uml">
+                                                                <span class="preview" id="uml">Preview</span>
+                                                            </button>
+                                                            <button type="button" class="btn btn-primary">
+                                                                <a class="download" href="downloads/uml.png" download>Download</a>
+                                                            </button>
+                                                        </div>
+                                                    </p>
+                                                    <p>Pitch Presentation:   <br>
+                                                        <button class="btn btn-primary">
+                                                            <a class="download" href="downloads/Twenty Eight Game Presentation.pptx"  download>Download</a>
+                                                        </button>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                
+                                            <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="end-of-page">
+            </div>
+        </div>
+    </div>
+
+    <footer class="row align-items-center" id="icons">
+        <div class="col-sm">
+            <img src="images/github.png" id="gitHub" alt="">
+        </div>
+        <div class="col-sm">
+            <img src="images/gmail.png" id="gmail" alt="">
+        </div>
+        <div class="col-sm">
+            <img src="images/linkedin2.png" id="linkedin">
+        </div>
+    </footer>
+
+</body>
+</html>

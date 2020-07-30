@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>   <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishnan Nair's E-Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/universal.css">
+    <link rel="stylesheet" href="test.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+ 
+    <script src="scripts/bootstrap.js"></script>
+    <script src="scripts/script.js"></script>
+
+</head>
+<body>
+    <div class="block">
+        <h1 class="head"><span>K</span>RISHNAN <span>N</span>AIR</h1>
+        <h3 class="head">E-PORTFOLIO</h3>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div id="left">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link " href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="resume.html">Resume</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="projects.html">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="contactMe.html">Contact Me</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="bg">
+        <div class="content">
+            <h3>
+                <b>Projects</b>      
+            </h3>
+            <p>Here's a list of my research and class projects. To learn more information or take a 
+                closer look, check out the supplemental infomation section of each project!</p>
+
+            <h4>Junior Design (Spring 2020)</h4>       
+            <p>
+                <img id="jDesign" src="images/juniord.png" >
+                The work seen above is from my junior design project, where I, alongside a team of 
+                two other students, was tasked with creating an adaptive paintbrush device 
+                to be used by artists with cerebral palsy. Given the pandemic of COVID-19, 
+                we were unable to physically develop a project, yet we were still tasked 
+                with creating a virtual prototype as well as a 70 page design report that
+                highlighted all of the technical details of the design and the impacts it 
+                would have in terms of social, environmental, and ethical context. With this 
+                project, I was assigned team lead and was responsible for guiding my teammates 
+                with meeting necessary deadlines and assuring all project requirements were 
+                met. Meetings were conducted via Zoom and I held the responsibility in guiding 
+                the focus of each meeting towards a particular task related to the project. 
+                I learned many valuable skills in project management using Gantt charts, as well as 
+                technical writing skills, Arduino coding, and developing models in Solidworks. 
+            </p>
+
+            <h5 class="sup">Supplemental Information:</h5>
+            <div class="buttons">
+                <p>Design Manifesto Report:   
+                    <button class="btn btn-primary" id="design">
+                        <span class="preview" id="design">Preview</span>
+                    </button>
+                    <button class="btn btn-primary">
+                        <a class="download" href="downloads/Team 15 Final Report.pdf" download>Download</a>
+                    </button>
+                </p>
+                <p>Narrated Final Pitch Presentation:
+                    <button class="btn btn-primary">
+                        <a class="download" href="downloads/Team 15 Final Pitch.pptx" download>Download</a>
+                    </button>
+                </p>
+            </div>    
+    
+            <h4>Neuronal Model of the Brain (Winter 2020)</h4>
+            <p>
+                <img id="neuron" src="images/neuron.png">
+                This project involved modeling the neuronal activity of two neurons when 
+                introduced to stochastic noise. The figure to the left shows a model 
+                of two neurons that are not synapsed and the figure to the right 
+                shows a model of the same two neurons but with a synapse. Both models introduce an aspect of
+                stochastic noise with a random distribution pattern. This 
+                model reflects that when two neurons synapse with one another, their action 
+                potentials spike closer together in time. Yet, the introduction of noise creates 
+                delays within action potential spikes, as seen by the randomized time span between 
+                spikes. This noise can be commonly found in neuronal diseases such as Parkinson’s 
+                and Alzheimers. The model was generated using differential equations in the Brian 
+                2.0 package of Python, and coded in the Jupyter IDE.
+            </p>
+    
+            <h4>HIV Drug Therapy Model (Fall 2019)</h4>
+            <p>
+                <img id="hivproj" src="images/hivproj.png">
+                This project attempted to model the combination HIV drug therapy known as HAART therapy. 
+                It was my final project for my biomedical modeling and simulation class, where we expanded on
+                skill using MATLAB and Simulink. The data was collected from the IrsiCaixa HIV research 
+                foundation in Barcelona, Spain. Each patient’s healthy T-Cell and viral cell concentration 
+                were monitored over the course of two years with one year on-therapy, and one year off-therapy. 
+                This model consisted of a variety of different parameters that went into three differential 
+                equations, and the parameter that controlled the change in concentration was the mass 
+                action infection rate. Other parameters included regeneration rate and death rate. The 
+                results of this project demonstrate that when a patient is diagnosed with HIV, no 
+                therapy can completely eradicate the disease, and the ultimate outcome is treatment 
+                for the rest of the patient’s life. This project was coded in MATLAB.
+            </p>
+            <h5 class="sup">Supplemental Information:</h5>
+            <div class="buttons">
+                <p>HIV Model Report:   
+                    <button class="btn btn-primary" id="hiv">
+                        <span class="preview" id="hiv">Preview</span>
+                    </button>
+                    <button class="btn btn-primary">
+                        <a class="download" href="downloads/HIV Model Report.pdf"  download>Download</a>
+                    </button>
+                </p>
+            </div>  
+    
+            <h4>Twenty-Eight UI Card Game (Summer 2019)</h4>
+            <p>
+                <img id="cardGame"src="images/memoryDiagram.png">
+                This user interface card game invovled developing a game in Java and having it run on the command window.
+                This project expanded on my object oriented programming skills inspired a career involving programming.
+                Above is the mid-state memory diagram of the game, containing all of the game’s classes and methods. 
+                This project tested my knowledge of object oriented programming and also tested my creativity on how 
+                to develop a simple, yet fun game. 
+            </p>
+            <h5 class="sup">Supplemental Information:</h5>
+            
+            <div id="end-of-page">
+                <div class="buttons">
+                    <p>Memory Diagram:   
+                        <button class="btn btn-primary" id="mem">
+                            <span class="preview" id="mem">Preview</span>
+                        </button>
+                        <button class="btn btn-primary">
+                            <a class="download" href="downloads/Memory Diagram.pdf"  download>Download</a>
+                        </button>
+                    </p>
+                    <p>UML Diagram:   
+                        <button class="btn btn-primary" id="uml">
+                            <span class="preview" id="uml">Preview</span>
+                        </button>
+                        <button class="btn btn-primary">
+                            <a class="download" href="downloads/uml.png"  download>Download</a>
+                        </button>
+                    </p>
+                    <p>Pitch Presentation:   
+                        <button class="btn btn-primary">
+                            <a class="download" href="downloads/Twenty Eight Game Presentation.pptx"  download>Download</a>
+                        </button>
+                    </p>
+                </div>  
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Copyright © 2020 Krishnan Nair, all rights reserved. 
+                <span class="preview" id="icons">
+                    <img src="images/github.png" id="gitHub" alt="">
+                    <img src="images/gmail.png" id="gmail" alt="">
+                    <img src="images/linkedin2.png" id="linkedin">
+                </span>
+        </p>
+    </footer>
+
+</body>
+</html>
