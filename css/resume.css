@@ -68,3 +68,11 @@ h4{
     background-color: #252859;
     border-color: #252859;
 }
+
+.col-xl-2{
+    margin-left: 2%;
+}
+
+.list-group-item{
+    font-size: .85em;
+}
