@@ -75,4 +75,5 @@ h4{
 
 .list-group-item{
     font-size: .85em;
+    overflow: hidden;
 }

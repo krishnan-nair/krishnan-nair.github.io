@@ -130,3 +130,6 @@ footer{
     margin-bottom: 2%;
 }
 
+.col-sm{
+    width: 33vw;
+}
