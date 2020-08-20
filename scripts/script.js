@@ -1,6 +1,6 @@
 //Dictionary used that matches the link's ID to the file name or link
 linkDict = {
-    "resume":"downloads/Krishnan Nair Resume.pdf",
+    "resume":"downloads/Krishnan Nair Resume Tech.pdf",
     "gitHub":"https://github.com/krishnan-nair",
     "gmail":"mailto:krishnannair12@gmail.com",
     "linkedin":"https://linkedin.com/in/krishnannair12/",
